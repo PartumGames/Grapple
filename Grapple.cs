@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class Grapple : MonoBehaviour
 {
-
-	//--this script assumes that it is a component of the "Player"(Unity FPS Player).
+	
+	//--this script assumes that it is a component of the "Player" (Custom Character) 
+	//--github repo for Custom Character: https://github.com/PartumGames/CustomCharacter
+	//--first youtube video covering Custom Character: https://www.youtube.com/watch?v=NdxMJFPOiwg
 	//--it also assumes that there is a rigidbody component on this gameobject.
 
     public Camera cam;
